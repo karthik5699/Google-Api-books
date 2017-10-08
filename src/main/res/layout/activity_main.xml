@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/gradient_bg">
+
+    <TextView
+        android:id="@+id/apptitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp"
+        android:padding="40dp"
+        android:text="Book World"
+        android:textAppearance="@style/Animation.AppCompat.DropDownUp"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:onClick="titledisplayer"/>
+
+    <TextView
+        android:id="@+id/apptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book World"
+        android:textStyle="bold"
+        android:textColor="#FAFAFA"
+        android:padding="40dp"
+        android:textSize="40sp"
+        android:textAppearance="@style/Animation.AppCompat.DropDownUp"
+        android:onClick="titledisplayer"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:saveEnabled="false"
+
+
+        android:layout_above="@+id/submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:textColor="#FAFAFA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:backgroundTint="#BCAAA4"
+        android:onClick="searchBooks"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

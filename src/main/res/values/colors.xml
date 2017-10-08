@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FBC02D</color>
+    <color name="colorPrimaryDark">#FDD835</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bookclolor1">#7E57C2</color>
+    <color name="bookcolor2">#26C6DA</color>
+    <color name="bookcolor3">#68EFAD</color>
+    <color name="start">#F9A825</color>
+    <color name="end">#FFFDE7</color>
+</resources>

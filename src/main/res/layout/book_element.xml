@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:minHeight="80dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="180dp"
+        android:padding="20dp"
+        android:id = "@+id/bookimage"
+        android:scaleType="centerCrop"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:textAlignment="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:minLines="1"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="Title"
+        android:maxLength="48"
+       android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/booktitle"
+
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="subtitle"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:gravity="bottom"
+        android:fontFamily="sans-serif"
+        android:id="@+id/booksubtitle"
+
+        android:minLines="2"
+        />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:text = "Author"
+         android:textSize="18sp"
+         android:gravity="bottom"
+         android:id="@+id/bookauthor"
+         />
+    </LinearLayout>
+
+</LinearLayout>
